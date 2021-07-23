@@ -1,0 +1,238 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+.DashBoard{
+     width:  100%;
+     background:  #E5E5E5;
+     height:203vh ;
+    position: relative;
+    // border:1px solid black;
+
+
+    .verticalbar{
+        position: fixed;
+        left:0;
+        top:0px;
+        width:200px;
+        height:100vh;
+        background-color: #fff;
+        // border:1px solid greenyellow;
+        box-shadow: 0px 24px 60px -30px rgba(0, 0, 0, 0.1);
+
+        #LogoImage{
+            position: absolute;
+            top:15px;
+            left:14px;
+            
+
+        }
+
+        #MenuList{
+            position: absolute;
+            // border:1px solid dodgerblue;
+            width:92%;
+            top:88px;
+            left:8px;
+
+
+            
+
+            li{
+                height:36px;
+                // border:1px solid red;
+                margin-bottom: 10px !important;
+                padding:4px !important; 
+                color: #25252D;
+                font-size: 14px;
+                border-radius: 4px;
+                
+
+                &:hover{
+                    background-color: #EEEAF9;
+
+                }
+
+                img{
+                    margin:0px 5px 0px 5px !important;
+                }
+
+            }
+
+           
+            
+        }
+    }
+
+    .Navbar{
+        position: fixed;
+        width:87%;
+        height:53px;
+        top:0px;
+        right:0px;
+        background: #fff;
+        // border:1px solid red;
+        box-shadow: 0px 24px 60px -30px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+
+
+
+       
+    }
+
+    .dashboard_content_box{
+        position: relative;
+        left:224px;
+        top:92px;
+        background: #E5E5E5;
+        width:1270px;
+        height:1401px;
+        // border:1px solid dodgerblue;
+    }
+}
+
+.active_class li, .active_class li img {
+                color:#8759F2 !important;
+            }
+
+
+            
+.DashBoard_Container{
+    // border:1px solid black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    #WelcomeGreet{
+        color:#25252D;
+        font-size: 28px !important;
+        font-weight: 600;
+        position: absolute;
+        top:36px;
+        left:24px;
+    }
+
+    @mixin DivProperty {
+        background-color: white;
+        box-shadow: 0px 24px 60px -30px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        position:absolute;
+    }
+
+    #SeePriority{
+        @include DivProperty;
+        top:96px;
+        left:24px;
+        width:439px;
+        height:160px;
+        
+    }
+
+    #NewTasks{
+        @include DivProperty;
+        width:152px;
+        height: 160px;
+      
+        top:96px;
+        left:487px;
+       
+        
+    }
+
+    #completetask{
+        @include DivProperty;
+        
+        width:774px;
+        height: 612px;
+        top:280px;
+        left:24px;
+        
+    }
+
+    #BestPractise{
+        @include DivProperty;
+      
+        width:774px;
+        height: 450px;
+        top:916px;
+        left:24px;
+      
+    }
+
+    #Rupee{
+        @include DivProperty;
+     
+        width:320px;
+        height: 75px;
+        top:96px;
+        right:24px;
+        
+    }
+
+    #PointProgress{
+        @include DivProperty;
+        width:320px;
+        height: 430px;
+        top:195px;
+        right: 24px;
+
+    }
+
+    #LeaderBoard{
+        @include DivProperty;
+        width:320px;
+        height: 519px;
+        top:650px;
+        right: 24px;
+    }
+
+    #ContactInfo{
+        @include DivProperty;
+        width:320px;
+        height: 200px;
+        bottom: 14px;
+        right: 25px;
+
+        #ContactUsText{
+            position: absolute;
+            font-weight:"700";
+            font-size:"14px" !important;
+            color:"#25252D";
+            top:10px;
+            left:20px
+
+        }
+
+        #CallPhone{
+            position: absolute;
+            top:39px;
+            left:20px;
+        }
+
+        #SupportSite{
+            position: absolute;
+            top:94px;
+            left:20px;
+
+        }
+
+        #Socialmedialist{
+            list-style-type: none;
+            position: absolute;
+            left:20px;
+            bottom: 10px;
+
+            a{
+                text-decoration: none;
+            }
+
+            li{
+                display: inline;
+                margin:0px 5px 0px 0px!important;
+            }
+        }
+    }
+}           

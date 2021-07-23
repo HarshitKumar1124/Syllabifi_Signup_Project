@@ -1,0 +1,294 @@
+*{
+    margin:0 !important;
+    padding:0 !important ;
+    box-sizing: border-box !important;
+}
+
+
+.Full_screen_width{
+    // border:2px solid black;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #E5E5E5;;
+
+    // .PageDivider{
+    //     border:2px solid red;
+    //    width:100vw;
+    //    height: 100vh;
+
+    // }
+}
+
+.MidContainer{
+    border:2px solid white;
+    width: 843px;
+    height: 653px;
+    position: absolute;
+    top: 45px;
+    left: 360px;
+    background-color: #fff;
+    border-radius: 16px;
+    mix-blend-mode: "pass through";
+    box-shadow: 0px 24px 60px rgba(36, 20, 72, 0.1);
+
+    .Pagination_block{
+        width:100%;
+        height:100px;
+        // border:1px solid black;
+        border-radius: 16px;
+        position: absolute;
+        top:0px;
+
+
+        .PaginationList{
+
+            // border:2px solid yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li{
+                // border:2px solid firebrick !important;
+                display: inline;
+                color:#443663;
+            }
+        }
+    }
+
+
+    .Main_Block{
+        width:790px;
+        height:517px;
+        // border:1px solid red;
+        border-radius: 16px;
+        position: absolute;
+        top:106px;
+        left:25px;
+
+        .setPreferences{
+
+
+        
+
+
+            h6{
+                width: 441px;
+                height: 28px;
+                font-size: 28px ;
+                line-height: 28px;
+                position: absolute;
+                top:0px;
+                left:264px;
+                color:#25252D, 100%;
+                letter-spacing: 1px;
+                font-weight: 600;
+            }
+    
+            
+        }
+
+
+        .Info_Box{
+            width:520px;
+            height:360px;
+            // border:1px solid dodgerblue;
+            position: absolute;
+            left:135px;
+            bottom:95px;
+
+
+            #UserName_group{
+                position: absolute;
+                left:0px;
+                // border:1px solid yellow;
+                width:321px;
+                height: 74px;
+
+                #UserName_Label{
+                    font-size: 12px;
+                    
+                }
+
+                #UserName{
+                    position: absolute;
+                    color:#828282, 100%;
+                    padding:16px !important;
+                    font-size: 14px !important;
+                }
+            }
+
+
+            #SetHour_group{
+                position: absolute;
+                left:345px;
+                top:0px;
+                // border:1px solid red;
+                width:175px;
+                height: 74px;
+
+                #SetHour_Label{
+                    font-size: 12px;
+                    
+                }
+
+                #SetHour{
+                    position: absolute;
+                    color:#828282, 100%;
+                    padding:16px !important;
+                    font-size: 14px !important;
+                    width:91px;
+                }
+
+                #Buttons{
+                    position: absolute;
+                    top:30px;
+                    right:0px;
+                    // border: 1px solid darkorange;
+                    width:74px;
+                    height:32px;
+                   
+                    #Increment, #Decrement{
+                        border: 1px solid rgba(54, 35, 129, 0.2);
+                        box-sizing: border-box;
+                        border-radius: 4px ;
+                        background-color: white;
+                        color:rgba(0, 0, 0, 0.5);
+                        padding:1px !important;
+                    }
+                }
+            }
+
+            .Language_Checkbox{
+                position: absolute;
+                left:0px;
+                top:98px;
+                width:100%;
+                // border:1px solid pink;
+                height: 262px;
+
+                .Languages{
+                    position: absolute;
+                    left:0px;
+                    border: 2px solid #EEEAF9;
+                    border-radius: 8px;
+                    background-color: #FCFBFD;
+                    top:32px;
+                    width:100%;
+                    height:154px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    
+                }
+
+                .language_box{
+                    // border:1px solid grey;
+                    width:80px;
+                    position: relative;
+                    height:24px;
+                    left:22px;
+                    top:10px;
+                    margin:0px 55px 9px 0px !important;
+                    
+
+                    p{
+                        font-size: 14px !important;
+                        color:#828282;
+                        position: absolute;
+                        left:27px;
+                        top:0px
+                    }
+
+                }
+                
+            }
+
+
+            .due_you_have_stylus{
+                position:absolute;
+                left: 0px;
+                bottom: 0px;
+                width:355px;
+                height:44px;
+                border: 1px solid dodgerblue;
+
+                p{
+                    font-size: 16px !important;
+                    font-weight: 400;
+                    line-height: 22.4px;
+
+                }
+                
+            }
+
+
+
+            .Button_yes_no{
+                position: absolute;
+                right:0px;
+                bottom: 0px;
+                // border:1px solid orange;
+
+                Button{
+                    width:70px;
+                    height: 40px;
+                    background-color: #fff;
+                    color:#8759F2;
+                    font-weight: 600;
+                    border: 2px solid #8759F2;
+                    box-sizing: border-box;  
+                    border-radius: 4px;
+                    margin:0px 3px !important;
+                    
+
+                    &:hover{
+                        background-color: rgba(130, 130, 130,0.2); 
+                    }
+                }
+            }
+
+        }
+
+        
+
+       
+
+       
+
+        .FooterButton{
+            position: absolute;
+            left:0px;
+            bottom: 12px;
+        //    border: 1px solid black;
+           height: 41px;
+
+
+           #Previous{
+               color:#8759F2;
+               height:41px;
+               font-size: 16px;
+               font-weight: 600;
+               background-color: #fff;
+               border:none;
+               padding: 5px !important;
+
+               &:hover{
+                   background-color: rgba(130, 130, 130,0.2); 
+               }
+           }
+
+
+
+           #Next{
+               background-color: #8759F2;
+               width:100px;
+               height: 41px;
+               position: absolute;
+               right:0px;
+               bottom: 0px;
+           }
+        }
+    }
+  
+}
+

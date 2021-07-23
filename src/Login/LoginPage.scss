@@ -1,0 +1,329 @@
+*{
+    margin:0 !important;
+    padding:0 !important ;
+    box-sizing: border-box !important;
+}
+
+
+.Full_screen_width{
+    border:2px solid black;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #E5E5E5;;
+
+    // .PageDivider{
+    //     border:2px solid red;
+    //    width:100vw;
+    //    height: 100vh;
+
+    // }
+}
+
+.MidContainer{
+    border:2px solid white;
+    width: 843px;
+    height: 653px;
+    position: absolute;
+    top: 45px;
+    left: 360px;
+    background-color: #fff;
+    border-radius: 16px;
+    mix-blend-mode: "pass through";
+    box-shadow: 0px 24px 60px rgba(36, 20, 72, 0.1);
+  
+    img{
+        position: absolute;
+        width: 443px;
+        height: 573px;
+        top: 40px;
+        left: 40px;
+        border-radius: 8px;
+    }
+
+    .Form_Container{
+        width:278px;
+        height:572.99px;
+        // border:2px solid greenyellow;
+        position: absolute;
+        top:40px;
+        left:523px;
+
+        #Alreadyhaveaccount{
+            // border:1px solid orangered;
+            position: absolute;
+            top: 465px;
+            right:5px;
+            font-size: 14px;
+            color:#828282;
+
+            span{
+                color:#8759F2 !important;
+                font-weight: 600 !important;
+            }
+
+        }
+
+        #GoogleSignup{
+            position: absolute;
+            bottom: 5px;
+            left:0px;
+            color:#828282;
+            font-size: 16px;
+            // border:2px solid black;
+            width:100%;
+
+            Button{
+                background: #F3F7FF;
+                position: relative;
+                border-radius: 48px;
+                padding: 6px 12px 6px 39px !important;
+                color:#5E6C84;
+                margin-left: 10px !important;
+                border: none;
+
+               img{
+                   position: absolute;
+                   top: 5px;
+                   left: 5px;
+                   width: 25px;
+                   height: 25px;
+               }
+
+
+            }
+
+            #GoogleSignupicon{
+               border:2px solid red;
+               position: absolute;
+               top:0px;
+               width:20px;
+               height: 20px;
+            }
+        }
+
+        #Purple_logo{
+            position: absolute;
+            width:40px;
+            height:19.31px;
+            border-radius: 0px;
+            // border:1px solid green;
+            top:6.69px;
+            left:0px;
+
+        }
+
+
+        #Pink_logo{
+            position: absolute;
+            width:10.4px;
+            height:10.29px;
+            top:8.17px;
+            left:6.66px
+        }
+
+
+        #Yellow_logo{
+            position: absolute;
+            width:10.4px;
+            height:10.29px;
+            top:0px;
+            left:14.86px
+        }
+
+        #Company{
+            position:absolute;
+            left:52px;
+            top:1.62px;
+            color:#252525;
+            height: 21px;
+            width:121px;
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 100%;
+        }
+
+
+        .Form{
+            position: absolute;
+            width:100%;
+            height:90%;
+            // border:1px solid dodgerblue;
+            top:58px;
+            left:0px;
+            
+
+            #Register_group{
+                position: absolute;
+                font-size: 18px;
+                font-weight: bold;
+                width:68px;
+                height:18px;
+                line-height: 18px;
+            }
+
+
+            #Name_group{
+                position: absolute;
+            
+                top:44px;
+                left:0px;
+                width: 100%;
+
+
+                #Name_Label{
+                    position: absolute;
+                    top: 0px;
+                    left:0px;
+                    height: 12px;
+                    width: 32px;
+
+                }
+
+                #Name{
+                    position: absolute;
+                    left:0px;
+                    top:25px;
+                    // border: 2px solid rgb(97, 95, 95);
+                    padding: 16px !important;
+                    border-radius: 0px;
+                    
+
+                }
+                
+            }
+
+            #Email_group{
+                position: absolute;
+            
+                top:136px;
+                left:0px;
+                width: 100%;
+
+
+                #Email_Label{
+                    position: absolute;
+                    top: 0px;
+                    left:0px;
+                    height: 12px;
+                    width: 32px;
+
+                }
+
+                #Email{
+                    position: absolute;
+                    left:0px;
+                    top:25px;
+                    // border: 2px solid rgb(97, 95, 95);
+                    padding: 16px !important;
+                    border-radius: 0px;
+                    
+
+                }
+                
+            }
+
+
+            #Password_group{
+                position: absolute;
+            
+                top:228px;
+                left:0px;
+                width: 100%;
+                height:76px;
+
+
+                #Password_Label{
+                    position: absolute;
+                    top: 0px;
+                    left:0px;
+                    height: 12px;
+                    width: 32px;
+
+                }
+
+                #Password{
+                    position: absolute;
+                    left:0px;
+                    top:25px;
+                    // border: 2px solid rgb(97, 95, 95);
+                    padding: 16px !important;
+                    border-radius: 0px;
+                    
+
+                }
+                
+            }
+
+
+            #Repassword_group{
+                position: absolute;
+            
+                top:320px;
+                left:0px;
+                width: 100%;
+
+
+                #Repassword_Label{
+                    position: absolute;
+                    top: 0px;
+                    left:0px;
+                    height: 12px;
+                    width: 32px;
+
+                }
+
+                #Repassword{
+                    position: absolute;
+                    left:0px;
+                    top:25px;
+                    // border: 2px solid rgb(97, 95, 95);
+                    padding: 16px !important;
+                    border-radius: 0px;
+                    
+
+                }
+                
+            }
+        }
+
+
+        #SignUp{
+            position: absolute;
+            bottom: 65px;
+            left:0px;
+            background-color: #8759F2;
+            width: 100px;
+            height: 40px;
+            border-radius: 4px;
+            padding: 12px;
+            line-height: 16px;
+            font-size: 16px;
+            font-weight: 600;
+            font-style: normal;
+
+        }
+
+        
+
+        
+
+    }
+
+    
+    
+
+   
+}
+
+
+
+.FooterPrivacy{
+    // border:2px solid blue;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px !important;
+    color:#8e939e
+}
+

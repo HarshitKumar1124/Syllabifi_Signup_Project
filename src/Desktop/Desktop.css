@@ -1,0 +1,145 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+.Full_screen_width {
+  border: none !important;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.MidContainer {
+  border: 2px solid white;
+  width: 843px;
+  height: 653px;
+  position: absolute;
+  top: 45px;
+  left: 360px;
+  background-color: #fff;
+  border-radius: 16px;
+  mix-blend-mode: "pass through";
+  -webkit-box-shadow: 0px 24px 60px rgba(36, 20, 72, 0.1);
+          box-shadow: 0px 24px 60px rgba(36, 20, 72, 0.1);
+}
+
+.MidContainer .Pagination_block {
+  width: 100%;
+  height: 100px;
+  border: none !important;
+  border-radius: 16px;
+  position: absolute;
+  top: 0px;
+}
+
+.MidContainer .Pagination_block .PaginationList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MidContainer .Pagination_block .PaginationList li {
+  display: inline;
+  color: #443663;
+}
+
+.MidContainer .Main_Block {
+  width: 790px;
+  height: 517px;
+  border: none !important;
+  border-radius: 16px;
+  position: absolute;
+  top: 106px;
+  left: 25px;
+}
+
+.MidContainer .Main_Block .whatisyourspecialization h6 {
+  width: 441px;
+  height: 28px;
+  font-size: 24px;
+  line-height: 28px;
+  position: absolute;
+  top: 0px;
+  left: 174px;
+  color: #25252D, 100%;
+  letter-spacing: 1px;
+}
+
+.MidContainer .Main_Block .whatisyourspecialization p {
+  position: absolute;
+  top: 44px;
+  left: 260px;
+  color: #828282, 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.MidContainer .Main_Block .checkboxes {
+  position: absolute;
+  border: none !important;
+  top: 132px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.MidContainer .Main_Block .FooterButton {
+  position: absolute;
+  left: 0px;
+  bottom: 12px;
+  border: none !important;
+  height: 41px;
+}
+
+.MidContainer .Main_Block .FooterButton #Previous {
+  color: #8759F2;
+  height: 41px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  padding: 5px !important;
+}
+
+.MidContainer .Main_Block .FooterButton #Previous:hover {
+  background-color: rgba(130, 130, 130, 0.2);
+}
+
+.MidContainer .Main_Block .FooterButton #Next {
+  background-color: #8759F2;
+  width: 100px;
+  height: 41px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.CheckBox {
+  width: 237px;
+  height: 112px;
+  background-color: #FCFBFD !important;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin: 8px 12px !important;
+  position: relative;
+}
+/*# sourceMappingURL=Desktop.css.map */
